@@ -9,7 +9,7 @@ const __dirname = dirname(__filename);
 
 const init = async () => {
     const server = Hapi.server({
-        port: port || 3000,
+        port: 3000,
         host: '0.0.0.0'
     });
 
